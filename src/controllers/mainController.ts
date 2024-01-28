@@ -1,7 +1,6 @@
 import { Request, Response } from "express";
 
-import MainService from "../interfaces/MainService";
-
+import MainService from "../interfaces/mainService";
 export default class MainController {
   private service: MainService;
 

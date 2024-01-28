@@ -1,4 +1,4 @@
-import MainService from "../interfaces/MainService";
+import MainService from "../interfaces/mainService";
 
 export default class DefaultMainService implements MainService {
   constructor() {}
