@@ -26,3 +26,9 @@ yarn dev
 ```
 
 > Please use this url http://localhost:3000
+
+## 4. To test the code
+
+```bash
+yarn test
+```
