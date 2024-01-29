@@ -1,5 +1,7 @@
 # my-typescript-sandbox
 
+[![CI](https://github.com/jersson/my-typescript-sandbox/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/jersson/my-typescript-sandbox/actions/workflows/ci.yml)
+
 WIP
 
 ## 1. Technical requirements
