@@ -1,6 +1,6 @@
 import express from "express";
 
-import mainRouter from "./routers/mainRouter";
+import mainRouter from "@/routers/mainRouter";
 
 const port = 3000;
 const app = express();

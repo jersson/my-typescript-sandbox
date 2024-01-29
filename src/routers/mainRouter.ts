@@ -1,7 +1,7 @@
 import express from "express";
 
-import MainController from "../controllers/mainController";
-import DefaultMainService from "../services/defaultMainService";
+import MainController from "@/controllers/mainController";
+import DefaultMainService from "@/services/defaultMainService";
 
 const mainRouter = express.Router();
 

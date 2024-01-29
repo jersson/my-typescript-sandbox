@@ -1,4 +1,4 @@
-import DefaultMainService from "../../src/services/defaultMainService";
+import DefaultMainService from "@/services/defaultMainService";
 
 describe("defaultMainService", () => {
   test("[OK] getMessage works properly", () => {
