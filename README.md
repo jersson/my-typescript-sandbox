@@ -6,8 +6,10 @@ WIP
 
 ## 1. Technical requirements
 
-- node >= 18.17.1
-- yarn >= 1.22
+- [node](https://nodejs.org/) >= 18.17.1
+- [yarn](https://yarnpkg.com/) >= 1.22
+
+> Please use [nvm](https://github.com/nvm-sh/nvm) in case you need to work with different node versions :wink:
 
 ## 2. To understand the code
 
