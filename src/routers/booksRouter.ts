@@ -7,8 +7,10 @@ const booksRouter = express.Router();
 
 const controller = new BooksController(new ExternalBookService());
 
-booksRouter.get("/books/:id", (req: Request<{ id: number }>, res) =>
-  controller.getBookById(req, res)
+booksRouter.get(
+  "/books/:id",
+  async (req: Request<{ id: number }>, res) =>
+    await controller.getBookById(req, res)
 );
 
 export default booksRouter;

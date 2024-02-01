@@ -13,8 +13,9 @@ export default class BooksController {
     this.service = service;
   }
 
-  getBookById = (req: Request<QueryParams>, res: Response) => {
+  getBookById = async (req: Request<QueryParams>, res: Response) => {
     const { id } = req.params;
-    return res.json(this.service.getBookById(id));
+    const result = await this.service.getBookById(id);
+    return res.json(result);
   };
 }
