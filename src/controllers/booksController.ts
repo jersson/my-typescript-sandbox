@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 
-import BooksService from "../interfaces/booksService";
+import BooksService from "@/interfaces/booksService";
 
 interface QueryParams {
   id: number;
