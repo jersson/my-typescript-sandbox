@@ -23,13 +23,24 @@ WIP
 yarn install
 ```
 
+### 3.2. Make the required configuration
+
+Setup the `.env` file at the root path using this values
+
+```
+API_URL=https://freetestapi.com/api
+ENDPOINT_BOOKS=/v1/books
+```
+
+We're using this [mocks api](https://freetestapi.com/apis/books) to make some tests but you can use other apis with the same interface :smile:
+
 ### 3.2. Explore the code, edit it and run it locally
 
 ```bash
 yarn dev
 ```
 
-> Please use this url http://localhost:3000
+> Please use this url <http://localhost:3000>
 
 ## 4. To test the code
 
