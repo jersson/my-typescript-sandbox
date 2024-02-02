@@ -25,7 +25,7 @@ yarn install
 
 ### 3.2. Make the required configuration
 
-Setup the `.env` file at the root path using this values
+Setup the `.env` file at the root path using these values
 
 ```
 API_URL=https://freetestapi.com/api
