@@ -32,7 +32,7 @@ API_URL=https://freetestapi.com/api
 ENDPOINT_BOOKS=/v1/books
 ```
 
-We're using this [mocks api](https://freetestapi.com/apis/books) to make some tests but you can use other apis with the same interface :smile:
+We're using this [mocks api](https://freetestapi.com/apis/books) to make some tests but you can use other apis with the same [books interface](./src/models/book.ts) :smile:
 
 ### 3.2. Explore the code, edit it and run it locally
 
